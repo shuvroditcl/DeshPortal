@@ -1,0 +1,435 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+
+
+
+/*td {
+    border: 0 none;
+    padding: 0.25em 2em 0.25em 0;
+}
+
+body {
+  padding-bottom: 20px;
+}
+
+#topBarUserTable {
+    margin-top:0px;
+}
+
+.TopdateCSS {
+    padding-left: 25px;
+    line-height: 100px;
+    color: white;
+}
+
+.username {
+    font-weight: bold;
+}
+
+#header {
+    position: relative;
+    margin-top: -32px;
+    width: 100%;
+    height: 90px;
+    background: linear-gradient(to bottom, #00C, #006);
+    color: #FFF;
+}
+
+
+.bodymain {
+    width:100%;
+    margin-left:28px;
+    background:none;
+   
+}
+.BodyLeft {
+    width:200px;
+    float:left;
+}
+.BodyRight {
+    width:960px;
+    float:left;
+}
+#header_logo {
+    float: left;
+    margin: 5px 5px 5px 5px;
+    height: 188px;
+    width: 103px;
+}
+
+#home_body {
+    width: 97%;
+  
+    margin-top :20px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+#footer {
+    position: fixed;
+    padding-left: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    width:97%;
+    bottom: 25px;
+    height: 20px;
+    text-align: center;
+}
+
+#logo {
+    position: absolute;
+    z-index: -2;
+    width:100%; 
+    height:100%;
+    background-color:#D0D0D0;
+}
+
+#logoImg {
+    max-width:28%;
+    height:auto;
+    opacity:0.15;
+    margin-left:35.5%;
+    top: 12.5%;
+}
+
+#sli {
+    padding-left: 25px;
+    line-height: 100px;
+    color: gold;
+}
+
+
+#headerContainer {
+    width: 95%;
+}
+
+#userContainer {
+    margin-top: 35px;
+    width: 350px;
+    height: 50px;
+    background-color: #CCC;
+    border: solid 1px #666666;
+    border-radius: 4px;
+    color: #333;
+}
+
+#userIconImage {
+    width: 40px;
+    height: 40px;
+}
+
+#homeIcon {
+    width:27px;
+    height:27px;
+}
+
+    #homeIcon:hover {
+        cursor:pointer;
+    }
+
+
+.icons{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 80px;
+    height: 80px;
+}
+
+.capDiv {
+    margin-top: -20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    text-align: center;
+}
+
+.caption {
+    color: #03C;
+}
+
+.submenu {
+    width:100%;
+    height:auto;
+    line-height:30px;
+    margin-buttom:10px;
+    color: goldenrod;
+}
+
+    .submenu:hover {
+        color:blue;
+        cursor:pointer;
+    }
+
+.submenu a {
+        color:goldenrod;
+        text-decoration:none;
+        background:none;
+}
+
+    .submenu a:hover {
+        color:blue;
+        cursor:pointer;
+    }
+
+
+#HR,#Agency,#Policy{
+    display:none;
+}
+.display {
+    display:none;
+}*/
+
+@charset "utf-8";
+/* CSS Document */
+
+/*
+#header{
+	margin:auto auto;
+	width:97%;
+	height:200px;
+	background-color:#f1f1f1;
+	border:solid 1px #CCC;
+	border-top-left-radius:8px;
+	border-top-right-radius:8px;
+	}*/
+
+.acordMenuLeft {
+    padding-left:20px;
+}
+
+.time{
+	color:white;
+	line-height:60px;
+	padding-left:100px;
+	text-align:center;
+	font-weight:bold;
+}
+
+.welcomeDiv{
+	color:blue;
+	/*line-height:60px;*/
+	font-weight:bold;
+}
+
+.headercontainer{
+	padding-right: 15px;
+ 	padding-left: 15px;
+  	margin-right: auto;
+  	margin-left: auto;
+  	background: linear-gradient(to bottom, #00C, #006);
+  	border:solid 1px #CCC;
+}
+	
+.sonaliH3{
+	color:#bf0000;
+	}
+
+
+td {
+    border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    /*padding: 1% 1% 1% 1%;*/
+    margin-left: 200px;
+}
+
+body {
+  padding-bottom: 20px;
+}
+
+#topBarUserTable {
+    /*margin-top:0px;*/
+}
+
+.TopdateCSS {
+    padding-left: 25px;
+    line-height: 100px;
+    color: white;
+}
+
+.username {
+    font-weight: bold;
+}
+
+#header {
+    position: relative;
+    margin-top: -32px;
+    width: 100%;
+    height: 90px;
+    background: linear-gradient(to bottom, #00C, #006);
+    color: #FFF;
+}
+
+/*.siteMasterHeader {
+    position: relative;
+    width: 100%;
+    height: 90px;
+    background: linear-gradient(to bottom, #00C, #006);
+    color: #FFF;
+    margin-top:-32px;
+}*/
+.bodymain {
+    width:100%;
+    /*margin-left:28px;*/
+    background:none;
+   /* background: url(../Images/icons/sonali_L.jpg) no-repeat;*/
+}
+.BodyLeft {
+    width:200px;
+    float:left;
+}
+.BodyRight {
+    width:960px;
+    float:left;
+}
+#header_logo {
+    float: left;
+    margin: 5px 5px 5px 5px;
+    height: 188px;
+    width: 103px;
+}
+
+#home_body {
+    width: 97%;
+    /*height:600px;
+	background-color:#eee;
+	border-left:solid 1px #ccc;
+	border-right:solid 1px #ccc;
+	border-bottom:solid 1px #ccc;*/
+    margin-top :0px;
+    margin-left:auto;
+    margin-right:auto;
+    /*padding-top: 80px;*/
+    padding-bottom: 30px;
+}
+
+#footer {
+    position: fixed;
+    padding-left: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    width:97%;
+    bottom: 25px;
+    height: 20px;
+    text-align: center;
+}
+
+#logo {
+    left:37.5%;
+	top:12.5%;
+    position: absolute;
+    z-index: -2;
+}
+
+#logoImg {
+    max-width:100%;
+	height:auto;
+    opacity:0.15;
+}
+
+#sli {
+    padding-left: 25px;
+    line-height: 100px;
+    color: gold;
+}
+
+
+#headerContainer {
+    width: 95%;
+}
+
+.fixContainerHome2 {
+    margin-top:-10px;
+}
+
+.userContainer {
+    margin-top:4px;
+    /*width: 350px;*/
+    height: 50px;
+    background-color: #CCC;
+    border: solid 1px #666666;
+    border-radius: 4px;
+    color: #333;
+}
+
+#userIconImage {
+    width: 40px;
+    height: auto;
+}
+
+#homeIcon {
+    width:27px;
+    height:auto;
+}
+
+    #homeIcon:hover {
+        cursor:pointer;
+    }
+
+
+.icons{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 80px;
+    height: 80px;
+}
+
+.capDiv {
+    margin-top: -20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    text-align: center;
+}
+
+.caption {
+    color: #03C;
+}
+
+.submenu {
+    width:100%;
+    height:auto;
+    line-height:30px;
+    margin-buttom:10px;
+    /*color: goldenrod;*/
+}
+
+    .submenu:hover {
+        color:blue;
+        cursor:pointer;
+    }
+
+.submenu a {
+        color:goldenrod;
+        text-decoration:none;
+        background:none;
+}
+
+    .submenu a:hover {
+        color:blue;
+        cursor:pointer;
+    }
+
+
+#HR,#Agency,#Policy{
+    display:none;
+}
+.display {
+    display:none;
+}
+
+.colSize a{
+    width: 140px;
+    /*font-weight: bold;*/
+    color: goldenrod;
+    text-decoration: none;
+}
+
+.colSize a:hover {
+    
+    color: blue;
+    cursor:pointer;
+}

@@ -1,0 +1,255 @@
+﻿.unread 
+{
+    color: #ff0000;    
+}
+
+.Cus_OptWidth {
+    width:80px;
+}
+
+.modalBackground {
+    background-color: Gray;
+    filter: alpha(opacity=65);
+    -moz-opacity: 0.65; /*  It is for Mozilla firefox browser   */
+    opacity: 0.65;
+}
+
+.PopUp_panel {
+    width: 500px;
+    height: auto;
+    background-color: White;
+}
+
+ .fontSizeg td {
+           font-size: 12px;
+            padding-right: 0px;
+        }
+
+.ajax__combobox_textboxcontainer input {
+    width: 175px;
+}
+
+.ajax__combobox_buttoncontainer button {
+}
+/*
+.CustomComboBoxStyle .ajax__combobox_inputcontainer
+{
+    width: 206px;
+    height: 20px;
+}
+.CustomComboBoxStyle .ajax__combobox_textboxcontainer
+{
+    width: 186px;
+    height: 20px;
+}
+.CustomComboBoxStyle .ajax__combobox_buttoncontainer
+{
+    width: 20px;
+    height: 20px;
+}
+*/
+.ajax__combobox_itemlist {
+    display: block;
+    height: 200px;
+    left: 497px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: absolute;
+    top: 212px;
+    visibility: visible;
+    width: 217px;
+    z-index: 1000;
+}
+
+.linkbutton_with_Edit_icon {
+    width: 920px;
+}
+
+thead {
+    background: #DEDEDE;
+}
+
+select.Showddl_JS {
+    width: 65px;
+}
+
+#btnCanelPopup {
+    width: 60px;
+    height: 30px;
+}
+
+.RequiredFieldCSS {
+    text-align: left;
+    font-family: Tahoma;
+    color: Red;
+    font-size: 12px;
+}
+
+.Cus_Lbl_Value {
+    float: left;
+    font-family: Tahoma;
+    text-align: left;
+    margin-left: 0px;
+    width: 215px;
+}
+
+.Cus_Lb_Sin {
+    float: left;
+    }
+
+.Cus_Lb_Dob {
+    float: left;
+    width: 150px;
+}
+
+.Cus_Lb_Dob_Med {
+    float: left;
+    margin-left:20px;
+    width: 80%;
+}
+
+.Cus_Txt_Sin {
+    resize:none;
+}
+
+.Cus_Txt_Dob {
+    width: 206px;
+    margin-left: 0px;
+}
+
+.Cus_ddl_Sin {
+}
+
+.Cus_ddl_Dob {
+    margin:0px;
+}
+
+.Cus_Rbt_Sin {
+    margin-left: 18px;
+}
+
+.Cus_Rbt_Dob {
+    margin-left: 18px;
+    width: 206px;
+}
+
+.Cus_Option_Lb {
+    color: Blue;
+    float: right;
+    margin: 5px 15px 0px 0px;
+}
+
+.Cus_option_radiobtn {
+    margin-left: 18px;
+    min-height: 220px;
+}
+
+.Cus_Savebtn {
+    float: right;
+    width: 110px;
+    height: 30px;
+}
+
+.Cus_Cancelbtn {
+    float: left;
+    width: 110px;
+    height: 30px;
+}
+
+.Cus_SearchBtn_Below {
+    float: left;
+    cursor: pointer;
+    width: 110px;
+    height: 30px;
+}
+
+.Cus_SearchBtn {
+    float: right;
+    cursor: pointer;
+}
+
+.Cus_SearchClearBtn {
+    float: left;
+    cursor: pointer;
+    font-family: Tahoma;
+    width: 80px;
+}
+
+
+.Cus_AddBtn {
+    height: 25px;
+    width: 80px; /* border: 1px solid #ccc;*/
+    cursor: pointer;
+    float: right;
+}
+
+.Cus_AddClearbtn {
+    height: 25px;
+    width: 80px; /* border: 1px solid #ccc;*/
+    cursor: pointer;
+}
+
+.Cus_Otherbutton {
+    width: auto;
+    margin-bottom: 10px;
+    height: 35px;
+}
+.Cus_ClosePopup {
+    float:right;
+    margin-right:4px;
+    margin-top:4px;
+    width: 17px;
+    height: 17px;
+}
+
+.ContectHead {
+    background-color: none;
+    height: 25px;
+    margin-bottom: 7px;
+    margin-top: 20px;
+    width: 100%;
+    border-bottom:solid 2px goldenrod;
+}
+
+.ContectHeadLite {
+    background-color: none;
+    height: 25px;
+    /*margin-bottom: 7px;
+    margin-top: 20px;*/
+    width: 100%;
+    border-bottom:solid 1px goldenrod;
+}
+
+.Font_header {
+    color: #006699;
+    font-family: Tahoma;
+    font-size: 15pt;
+}
+.RequiredFieldCSS {
+    color: #FF0000;
+    font-family: Tahoma;
+    font-size: 12px;
+    text-align: left;
+}
+.Mandatory {
+    color: #FF0000;
+    font-weight: bold;
+    margin-left: 6px;
+}
+.popover-content
+{
+    padding: 9px 14px;
+    font-size: 10px;
+    color:red;
+}
+.Cus_LinkBtn {
+    margin-left:10px;
+    float:left;
+}
+.DisplayNone {
+    display: none;
+}
+.Display {
+    display: block;
+}
+

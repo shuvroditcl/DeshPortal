@@ -1,0 +1,181 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+#Commercial {
+    background-color:darksalmon;
+}
+
+#notification {
+    background-color:darkolivegreen;
+}
+
+#Surveillance {
+    background-color:palevioletred;
+}
+
+#sampling {
+    background-color:skyblue;
+}
+
+#ProPlanBtn {
+    background-color:orangered;
+}
+
+#AccessoriesBtn {
+    background-color:silver;
+}
+
+#ieBtn {
+    background-color:yellowgreen;
+}
+
+#LoanBtn {
+    background-color:burlywood;
+}
+
+#TrainingBtn {
+    background-color:lightslategray;
+}
+
+#PageAccessBtn {
+    background-color:indianred;
+}
+
+#maturityClaimBtn {
+    background-color:lemonchiffon;
+}
+
+#cardMgBtn {
+    background-color:palevioletred;
+}
+
+#invShareBtn {
+    background-color:peru;
+}
+
+#grpPolBtn {
+    background-color:cornsilk;
+}
+
+#attendanceBtn {
+    background-color:yellowgreen;
+}
+
+#expenses {
+    background-color:darkslateblue;
+}
+
+#payrollBtn {
+    background-color:goldenrod;
+}
+
+#assetManagementBtn {
+    background-color:palevioletred;
+}
+
+#approvalBtn {
+    background-color:dodgerblue;
+}
+
+#chatBtn {
+    background-color:darkslateblue;
+}
+
+#merchandisingBtn {
+    background-color:blanchedalmond;
+}
+
+#inventoryBtn {
+    background-color:#5f801e;
+}
+
+#polScheduleBtn {
+    background-color:#a9b8c4;
+}
+
+#productionBtn {
+    background-color:darkgreen;
+}
+
+#misBtn {
+    background-color:blue;
+}
+
+.btn_custom{
+	width:100px;
+	height:100px;
+	margin:30px 30px 30px 30px;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:4px;
+	box-shadow: 0 0 8px 0.5px;
+	}
+	
+#policyBtn{
+	background:#F29C1E;
+}
+
+#AgentComBtn {
+    background: #866e8f;
+}
+
+#underWriteBtn{
+	background:#7E8C8D;
+	}
+	
+#accountsBtn{
+	background:#3B97D2;
+}
+
+#yarnBtn{
+	background:#3B97D2;
+}
+
+#hrBtn{
+	background:#4EB96E;
+}
+
+#agentBtn{
+		background:#884B9D;
+}
+	
+.btn_custom:hover{
+	box-shadow:0 0 5px 0;
+	cursor:pointer;
+	}
+
+#btn_label{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:80px;
+	margin-left:30px;
+	line-height:90px;
+	color:white;
+	opacity:.75;
+	}
+	
+.circle{
+	margin-top:-105px;
+	margin-left:80px;
+	width:30px;
+	height:30px;
+	border-radius:20px;
+	background-color:#E54C3B;
+	color:white;
+	text-align:center;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:15px;
+	line-height:25px;
+	box-shadow:0 0 10px 0;
+	/*display:none;*/
+}
+
+.custom_divider{
+	margin-left:auto;
+	margin-right:auto;
+	width:60%;
+	height:1px;
+	background-color:#e5e5e5;
+}
+.UnderW {
+    background-image:url(../Images/icons/underWriting.png)
+}   

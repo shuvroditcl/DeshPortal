@@ -1,0 +1,5 @@
+D:\DeshExpressPortal\DeshExpressPortal\DeshExpressPortal\bin\DeshExpressPortal.dll
+D:\DeshExpressPortal\DeshExpressPortal\DeshExpressPortal\bin\DeshExpressPortal.pdb
+D:\DeshExpressPortal\DeshExpressPortal\DeshExpressPortal\obj\Debug\DeshExpressPortal.csprojResolveAssemblyReference.cache
+D:\DeshExpressPortal\DeshExpressPortal\DeshExpressPortal\obj\Debug\DeshExpressPortal.dll
+D:\DeshExpressPortal\DeshExpressPortal\DeshExpressPortal\obj\Debug\DeshExpressPortal.pdb

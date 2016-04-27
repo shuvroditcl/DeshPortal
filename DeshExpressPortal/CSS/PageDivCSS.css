@@ -1,0 +1,311 @@
+﻿
+.ApplicantSelection {
+    width:100%;
+    height:100px;
+}
+.premiumReceipt_main {
+    width: 100%;
+    height: auto;
+}
+
+.premiumReceipt_left {
+    width: 50%;
+    float: left;
+}
+
+.premiumReceipt_right {
+    width: 49%;
+    float: left;
+}
+
+.policyAppSummary_main {
+    width: 100%;
+    height: auto;
+}
+
+.policyAppSummary_left {
+    width: 50%;
+    float: left;
+}
+
+.policyAppSummary_right {
+    width: 49%;
+    float: left;
+}
+
+.medicalExam_main {
+    width: 100%;
+    height: auto;
+}
+
+.medicalExam_left {
+    width: 50%;
+    float: left;
+}
+
+.medicalExam_right {
+    width: 49%;
+    float: left;
+}
+/* start Agent&&&&&& Policy */
+.ScrollPanel {
+    max-height: 600px;
+    min-width: 1000px;
+}
+
+.policy_main {
+    width: 100%;
+    height: auto;
+}
+
+.policy_left {
+    margin-left: 10px;
+    width: 50%;
+    float: left;
+}
+
+.policy_right {
+    width: 45%;
+    float: left;
+}
+
+.search_main {
+    width: 100%;
+    height: auto;
+}
+
+.search_left {
+    width: 50%;
+    float: left;
+}
+
+.search_right {
+    width: 49%;
+    float: left;
+}
+
+.agentType_main {
+    width: 100%;
+    height: auto;
+}
+
+.agentType_left {
+    width: 50%;
+    float: left;
+}
+
+.agentType_right {
+    width: 49%;
+    float: left;
+}
+
+.Font_lead {
+    font-weight: bold;
+}
+
+.agentInfo_main {
+    width: 100%;
+    height: auto;
+}
+
+.agent_left {
+    width: 50%;
+    float: left;
+}
+
+.agent_right {
+    width: 49%;
+    float: left;
+}
+
+.NextPreviousCss {
+    float: right;
+    margin: 3px 0px 3px 0px;
+}
+/* End Agent &&& Policy*/
+body {
+    background-color: none;
+}
+
+.SiteMasterBody {
+    margin-top: -30px;
+}
+
+.Create_Search_Div {
+}
+
+.JobDetail_Main {
+    height: 215px;
+    width: 100%;
+    float: left;
+}
+
+.JobDetail_Left {
+    height: auto;
+    width: 50%;
+    float: left;
+}
+
+.JobDetail_Right {
+    height: auto;
+    width: 49%;
+    float: left;
+}
+
+
+.EmpBasicInfo_main {
+    min-height: 600px;
+    width: 100%;
+}
+
+.EmpBasicInfo_left {
+    width: 50%;
+    float: left;
+    margin-bottom: 0px;
+}
+
+.EmpBasicInfo_right {
+    width: 49%;
+    float: left;
+}
+
+.EmpBasicInfo_Search_main {
+    height: 80px;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.EmpBasicInfo_Search_left {
+    height: 55px;
+    width: 50%;
+    float: left;
+    margin-bottom: 0px;
+}
+
+.EmpBasicInfo_Search_right {
+    height: 55px;
+    width: 50%;
+    float: left;
+}
+
+.Reperter_div {
+    width: 100%;
+}
+
+.Action_Panel {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.Dept_main {
+    width: 100%;
+    height: auto;
+}
+
+.CompMain {
+    width: 100%;
+    height: auto;
+}
+
+.CompMain_left {
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.CompMain_right {
+    width: 49%;
+    height: auto;
+    float: left;
+}
+
+.webcampbutton {
+    width: 78px;
+    margin-top: 5px;
+}
+
+.Imagebox {
+    width: 140px;
+    height: 160px;
+}
+
+.Imageboxwithwebcamp {
+    margin-top: 7px;
+    width: 140px;
+    height: 160px;
+}
+
+.ImageButtonMargintop {
+    margin-top: 5px;
+}
+/*  Start Popup*/
+
+
+.popup_Container_SingleRow {
+    /* background-color: #A1A054;
+    border: 2px solid #CCCCCC;
+    padding: 0;
+    width: 100;*/
+    background-color: #D0D0D0;
+    border: 2px solid #CCCCCC;
+    min-width: 650px;
+    border-radius: 8px;
+}
+
+.popup_Container_DoubleRow {
+    /* background-color: #A1A054;
+    border: 2px solid #CCCCCC;
+    padding: 0;
+    width: 100;*/
+    background-color: #D0D0D0;
+    border: 2px solid #CCCCCC;
+    min-width: 960px;
+}
+
+.popup_Titlebar {
+    /** background: url("../Images/titlebar_bg.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0); **/
+    background-color: #595959;
+    height: 29px;
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    line-height: 30px;
+}
+
+.TitlebarLeft {
+    float: left;
+    padding-left: 5px;
+    /*padding-top: 5px;*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    width: 98%;
+    color: #FFF;
+}
+
+.TitlebarRight {
+    background: url("../Images/cross_icon_normal.png") no-repeat scroll right 50% rgba(0, 0, 0, 0);
+    cursor: pointer;
+    float: right;
+    height: 20px;
+    margin-right: 5px;
+    margin-top: 5px;
+    width: 21px;
+}
+
+.popup_Body {
+    clear: both;
+    /*color: #CCCCCC;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 15pt;
+    padding: 20px;*/
+}
+
+.ComCal{
+    border: 1px solid;
+    border-color: blue;
+    text-align: center;
+}
+/*End pop up*/

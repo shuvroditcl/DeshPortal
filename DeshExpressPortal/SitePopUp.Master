@@ -1,0 +1,358 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SitePopUp.master.cs" Inherits="DeshExpressPortal.SitePopUp" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head id="Head1" runat="server">
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width" />
+    <asp:ContentPlaceHolder runat="server" ID="HeadContent" />
+
+    <%--Start Css File Include--%>
+    <link href="CSS/Site.css" rel="stylesheet" />
+    <script type="text/javascript" src="../JS/jquery.js"></script>
+    <script type="text/javascript" src="../JS/jquery-ui-1.10.3.custom.min.js"></script>
+    <script type="text/javascript" src="../JS/buttons.js"></script>
+    <script type="text/javascript" src="../JS/validation.js"></script>
+    <script type="text/javascript" src="../JS/bootstrap.js"></script>
+    <%--<link href="CSS/bootstrapV3_2013.css" rel="stylesheet" />--%>
+    <link href="CSS/bootstrap-responsive.css" rel="stylesheet" />
+    <%--  <link href="CSS/bootstrap.css" rel="stylesheet" />--%>
+    <link href="CSS/bootstrap2_3_2.css" rel="stylesheet" />
+    <link href="CSS/jquery-ui-1.10.3.custom.min.css.css" rel="stylesheet" />
+    <link href="CSS/home_style.css" rel="stylesheet" />
+    <%--<link href="CSS/buttons.css" rel="stylesheet" />--%>
+    <link href="CSS/Custom_CSS.css" rel="stylesheet" />
+    <link href="CSS/PageDivCSS.css" rel="stylesheet" />
+
+    <link href="CSS/jquery.mCustomScrollbar.css" rel="stylesheet" />
+    <link href="CSS/scrollContentStyle.css" rel="stylesheet" />
+    <%--<script src="SearchSuggest.js"></script>--%>
+    <%--<script language="JavaScript" type="text/javascript" src="./SearchSuggest.js"></script>--%>
+    <%-- <script src="<%# ResolveUrl("~/") %>SearchSuggest.js" type="text/javascript"></script>--%>
+    <%--<script src="SearchSuggest.js"></script>--%>
+    <style type="text/css" media="screen">
+        .suggest_link {
+            background-color: #FFFFFF;
+            padding: 2px 6px 2px 6px;
+        }
+
+        .suggest_link_over {
+            background-color: #3366CC;
+            padding: 2px 6px 2px 6px;
+        }
+
+        #search_suggest {
+            position: absolute;
+            background-color: #FFFFFF;
+            text-align: left;
+            border: 1px solid #000000;
+        }
+
+        #menu ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            z-index: 100000;
+            width: 290px; /* Width of Menu Items */
+            border-bottom: 1px solid #ccc;
+        }
+
+            #menu ul li {
+                position: relative;
+            }
+
+        #menu li ul {
+            position: absolute;
+            left: 290px; /*Set 1px less than menu width */
+            top: 0;
+            display: block;
+        }
+
+        #menu li:hover ul {
+            display: block;
+        }
+
+        #menu li:hover > ul {
+            visibility: visible;
+        }
+
+        #menu ul ul {
+            visibility: hidden;
+        }
+
+        /* Fix IE. Hide from IE Mac \*/
+        * html #menu ul li {
+            float: left;
+            height: 1%;
+        }
+
+            * html #menu ul li a {
+                height: 1%;
+            }
+        /* End */
+
+        /* Make-up syles */
+
+        #menu ul, li {
+            margin: 0 0 0 0;
+        }
+
+            /* Styles for Menu Items */
+            #menu ul a {
+                display: block;
+                text-decoration: none;
+                font-weight: bold;
+                color: goldenrod;
+                background: #fff; /* IE6 Bug */
+                padding: 5px;
+                border: 1px solid #ccc;
+                border-bottom: 0;
+            }
+
+                /* Hover Styles */
+                #menu ul a:hover {
+                    color: goldenrod;
+                    background: #f9f9f9;
+                }
+
+        /* Sub Menu Styles */
+        #menu li ul a {
+            text-decoration: none;
+            font-weight: bold;
+            color: goldenrod;
+            background: #fff; /* IE6 Bug */
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-bottom: 0;
+        }
+
+            /* Sub Menu Hover Styles */
+            #menu li ul a:hover {
+                color: #E2144A;
+                background: #f9f9f9;
+            }
+
+        /* Icon Styles */
+        #menu ul a.submenu {
+            background: #fff url("r_arrow.gif") no-repeat right;
+        }
+
+            #menu ul a.submenu:hover {
+                background: #f9f9f9 url("r_arrow.gif") no-repeat right;
+            }
+    </style>
+    <%--End Css File Include--%>
+
+    <script type="text/javascript">
+        startList = function () {
+
+            // code for IE
+            if (!document.body.currentStyle) return;
+            var subs = document.getElementsByName('submenu');
+            for (var i = 0; i < subs.length; i++) {
+                var li = subs[i].parentNode;
+                if (li && li.lastChild.style) {
+                    li.onmouseover = function () {
+                        this.lastChild.style.visibility = 'visible';
+                    }
+                    li.onmouseout = function () {
+                        this.lastChild.style.visibility = 'hidden';
+                    }
+                }
+            }
+        }
+        window.onload = startList;
+    </script>
+
+
+</head>
+<body>
+    <form id="Form1" runat="server">
+
+        <ajaxToolkit:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server">
+            <%-- <Scripts>--%>
+            <%--Framework Scripts--%>
+            <%--    <asp:ScriptReference Name="jquery" />
+                
+
+                
+                <asp:ScriptReference Name="WebFormsBundle" />--%>
+            <%--Site Scripts--%>
+            <%-- </Scripts>--%>
+        </ajaxToolkit:ToolkitScriptManager>
+
+
+        <%--Framework Scripts--%>
+
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container-fluid">
+
+                    <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <ul class="nav">
+                        <h3 class="sonaliH3">
+                            <img id="Img1" style="height: 60px; width: auto" src="img/icon/logo.png" />
+                            <%--<span>IMPREIAL STUDIO INC</span>--%>
+                        </h3>
+                    </ul>
+                    <div class="nav-collapse collapse">
+                        <ul class="nav">
+
+                            <span class="time">
+                                <asp:Label ID="lblTopdate" runat="server"></asp:Label></span>
+
+                        </ul>
+
+                        <ul class="navbar-text pull-right">
+                            <div class="userContainer">
+                                <div class="fixContainerHome2">
+                                    <table class="topBarUserTable">
+                                        <tr>
+                                            <td>
+                                                <div id="userIcon">
+                                                    <img id="userIconImage" src="/img/user.png" />
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <span><i>Welcome</i>
+                                                    <asp:LoginName ID="LoginName" runat="server" />
+                                                    &nbsp;|&nbsp;
+                                                </span>
+                                            </td>
+                                            <td>
+                                                <a href="/HomeUI.aspx">
+                                                    <img id="homeIcon" src="/img/icon/home.png" /></a>
+                                            </td>
+                                            <td>
+                                                <asp:LoginStatus ID="LoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Logout" LogoutPageUrl="~/" OnLoggedOut="LoginStatus_LoggedOut" />
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="clear-fix"></div>
+
+        <div id="logo">
+            <img id="logoImg" src="/Images/icons/sonali_L.png" />
+        </div>
+
+        <div class="bodymain">
+
+            <div class="row">
+                <%--  <div class="span4">
+                   
+                </div>--%>
+
+
+                <div class="span4">
+                   <%-- <div id="menu">
+                        <ul id="menuList">
+                            <li><a href="#" name="submenu" class="submenu" style="text-align: center">Quick Navigation</a>
+                                <ul>
+                                    <li><a href="#" name="submenu" class="submenu">HR</a>
+                                        <ul>
+                                            <li><a href="#"> Entry</a></li>
+
+                                            <li><a href="#">Reports</a>
+                                                <ul>
+                                                    <li><a href="#">Report</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>--%>
+                    <div id="DeshExpress" class="DisplayNone">
+                        <h4>Product Management</h4>
+                        <div>
+                            <div class="submenu"><a href="#">Banner Management</a></div>
+                            <div class="submenu"><a href="#">How It Works</a></div>
+                            <div class="submenu"><a href="#">Fare Chart</a></div>
+                            <div class="submenu"><a href="#">FAQ Management</a></div>
+                            <div class="submenu"><a href="#">User/Driver Management</a></div>
+                            <div class="submenu"><a href="#">Approval</a></div>
+                        </div>
+                       <h4>Report </h4>
+                        <div>
+                           <%--<div class="submenu"><a href="../Reports/PrintInvoice.aspx">Print Invoice </a></div>
+                           <div class="submenu"><a href="../Reports/CustomerInfo.aspx">Customer Info </a></div>
+                            <div class="submenu"><a href="../Reports/TopProductViwer.aspx">Top Products </a></div>
+                            <div class="submenu"><a href="../Reports/SalesReport.aspx">Sales Report</a></div> --%>
+                            
+                        </div>
+                        
+                       
+                    </div>
+                    <div id="Utilities" class="DisplayNone">
+                        <h4>Utilities</h4>
+                        <div>
+                            <div class="submenu"><a href="/Utilities/UserManagement.aspx">User Management</a></div>
+                            <%--<div class="submenu"><a href="#">Change Password</a></div>--%>
+                            
+                        </div>
+                        <%--<h4>Report </h4>
+                        <div>
+                          <div class="submenu"><a href="../Reports/PrintInvoice.aspx">Print Invoice </a></div>
+                           <div class="submenu"><a href="../Reports/CustomerInfo.aspx">Customer Info </a></div>
+                            <div class="submenu"><a href="../Reports/TopProductViwer.aspx">Top Products </a></div>
+                            <div class="submenu"><a href="../Reports/SalesReport.aspx">Sales Report</a></div> 
+                            
+                        </div>--%>
+                        
+                       
+                    </div>
+
+
+                </div>
+                <%-- </div>--%>
+
+                <div class="span12" style="background-color: rgba(238, 238, 238,0.75);">
+
+                    <asp:ContentPlaceHolder runat="server" ID="FeaturedContent" />
+                    <asp:ContentPlaceHolder runat="server" ID="MainContent">
+                    </asp:ContentPlaceHolder>
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="footer">
+
+
+            <asp:Label ID="lbchat" runat="server" Text="  "></asp:Label>
+            <pre> Desh Express. 				&copy; DITCL, Dragon Information Technology and Communication Limited, 2016.</pre>
+
+        </div>
+
+
+        <script type="text/javascript" src="JS/jquery.js"></script>
+        <script type="text/javascript" src="JS/jquery-ui-1.10.3.custom.min.js"></script>
+        <script type="text/javascript" src="JS/buttons.js"></script>
+
+
+        <script type="text/javascript" src="JS/validation.js"></script>
+
+        <script type="text/javascript" src="JS/bootstrap.js"></script>
+    </form>
+</body>
+
+</html>

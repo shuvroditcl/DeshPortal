@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 50px 50px 50px rgba(100,100,100,.5); 
+    
+}
+ 
+::-webkit-scrollbar-thumb {
+    
+    -webkit-box-shadow: inset 50px 50px 50px rgba(80,80,80,1); 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    
+    -webkit-box-shadow: inset 50px 50px 50px rgba(30,30,30,.5); 
+}
+
+.tabContentCustom {
+    margin: 10px;
+    min-width: 1000px;
+	max-height: 300px; 
+	
+	overflow:auto; 
+	background:#D0D0D0; 
+	-webkit-border-radius:3px; 
+	-moz-border-radius:3px; 
+	border-radius:3px;
+}
+
+.content{
+	margin: 10px;
+    min-width: 1000px;
+	max-height: 475px; 
+	
+	overflow:auto; 
+	background:#D0D0D0; 
+	-webkit-border-radius:3px; 
+	-moz-border-radius:3px; 
+	border-radius:3px;
+   
+}
+.content p:nth-child(even){
+	color:#999; 
+	font-family:Georgia,serif; 
+	font-size:17px; 
+	font-style:italic;
+}
+.content p:nth-child(3n+0){
+	color:#c96;
+}
+

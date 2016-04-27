@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A4F72EE8-491D-44A7-9699-81A41998D1CB}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DeshExpressPortal</RootNamespace>
+    <AssemblyName>DeshExpressPortal</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=4.5.7.1005, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="AjaxMin, Version=4.97.4951.28478, Culture=neutral, PublicKeyToken=21ef50ce11b5d80f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\AjaxMin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Web.Optimization.WebForms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Microsoft.AspNet.Web.Optimization.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Optimization, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CSS\bootstrap-responsive.css" />
+    <Content Include="CSS\bootstrap-theme.css" />
+    <Content Include="CSS\bootstrap-theme.min.css" />
+    <Content Include="CSS\bootstrap.css" />
+    <Content Include="CSS\bootstrap.min.css" />
+    <Content Include="CSS\bootstrap2_3_2.css" />
+    <Content Include="CSS\bootstrapV3_2013.css" />
+    <Content Include="CSS\buttons.css" />
+    <Content Include="CSS\Custom_CSS.css" />
+    <Content Include="CSS\home_style.css" />
+    <Content Include="CSS\jquery-ui-1.10.3.custom.min.css.css" />
+    <Content Include="CSS\jquery.mCustomScrollbar.css" />
+    <Content Include="CSS\PageDivCSS.css" />
+    <Content Include="CSS\scrollContentStyle.css" />
+    <Content Include="CSS\signin.css" />
+    <Content Include="CSS\Site.css" />
+    <Content Include="ERPLogIn.aspx" />
+    <Content Include="FareChart.aspx" />
+    <Content Include="HomeUI.aspx" />
+    <Content Include="img\bg2.png" />
+    <Content Include="img\glyphicons-halflings-white.png" />
+    <Content Include="img\glyphicons-halflings.png" />
+    <Content Include="img\icon\accounts.png" />
+    <Content Include="img\icon\agentCom.png" />
+    <Content Include="img\icon\agents.png" />
+    <Content Include="img\icon\approvalIcon.png" />
+    <Content Include="img\icon\assetManagementIcon.png" />
+    <Content Include="img\icon\AttendanceIcon.png" />
+    <Content Include="img\icon\AuthorizeSignature.jpg" />
+    <Content Include="img\icon\cardManagementIcon.png" />
+    <Content Include="img\icon\chatIcon.png" />
+    <Content Include="img\icon\claimIcon.png" />
+    <Content Include="img\icon\crossIcon.png" />
+    <Content Include="img\icon\expensesIcon.png" />
+    <Content Include="img\icon\groupIcon.png" />
+    <Content Include="img\icon\home.png" />
+    <Content Include="img\icon\HR.png" />
+    <Content Include="img\icon\Investment.png" />
+    <Content Include="img\icon\investmentShare.png" />
+    <Content Include="img\icon\loanIcon.png" />
+    <Content Include="img\icon\logo.png" />
+    <Content Include="img\icon\maturityIcon.png" />
+    <Content Include="img\icon\mis.png" />
+    <Content Include="img\icon\PageAccesIicon.png" />
+    <Content Include="img\icon\payments.png" />
+    <Content Include="img\icon\policy.png" />
+    <Content Include="img\icon\policySchedule_icon.png" />
+    <Content Include="img\icon\refreshIcon.png" />
+    <Content Include="img\icon\reInsurrance_icon.png" />
+    <Content Include="img\icon\settings.png" />
+    <Content Include="img\icon\sonali_L.png" />
+    <Content Include="img\icon\Training_icon.png" />
+    <Content Include="img\icon\underWriting.png" />
+    <Content Include="img\icon\user.png" />
+    <Content Include="img\icon\userActivityIcon.png" />
+    <Content Include="img\icon\Utilities_icon.png" />
+    <Content Include="img\Imperial.png" />
+    <Content Include="img\logo_Imp_2.png" />
+    <Content Include="img\sale.png" />
+    <Content Include="img\user.png" />
+    <Content Include="JS\bootstrap.js" />
+    <Content Include="JS\bootstrap.min.js" />
+    <Content Include="JS\buttons.js" />
+    <Content Include="JS\jquery-1.9.1.min.js" />
+    <Content Include="JS\jquery-ui-1.10.3.custom.min.js" />
+    <Content Include="JS\jquery.js" />
+    <Content Include="JS\jquery.mCustomScrollbar.concat.min.js" />
+    <Content Include="JS\scrollContentJq.js" />
+    <Content Include="JS\validation.js" />
+    <Content Include="SiteMasterEntrypage.aspx" />
+    <Content Include="Utilities\UserManagement.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ERPLogIn.aspx.cs">
+      <DependentUpon>ERPLogIn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ERPLogIn.aspx.designer.cs">
+      <DependentUpon>ERPLogIn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FareChart.aspx.cs">
+      <DependentUpon>FareChart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FareChart.aspx.designer.cs">
+      <DependentUpon>FareChart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HomeUI.aspx.cs">
+      <DependentUpon>HomeUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomeUI.aspx.designer.cs">
+      <DependentUpon>HomeUI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SiteMasterEntrypage.aspx.cs">
+      <DependentUpon>SiteMasterEntrypage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SiteMasterEntrypage.aspx.designer.cs">
+      <DependentUpon>SiteMasterEntrypage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SitePopUp.Master.cs">
+      <DependentUpon>SitePopUp.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SitePopUp.Master.designer.cs">
+      <DependentUpon>SitePopUp.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities.cs" />
+    <Compile Include="Utilities\UserManagement.aspx.cs">
+      <DependentUpon>UserManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Utilities\UserManagement.aspx.designer.cs">
+      <DependentUpon>UserManagement.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CSS\bootstrap-theme.css.map" />
+    <Content Include="CSS\bootstrap.css.map" />
+    <Content Include="SitePopUp.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CSS\Fakes\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:12409/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
